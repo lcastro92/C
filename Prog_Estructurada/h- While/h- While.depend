@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1696803641 source:f:\git\c\prog_estructurada\h- while\main.c
+	<stdio.h>
+	<stdlib.h>
+
