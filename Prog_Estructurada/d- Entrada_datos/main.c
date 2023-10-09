@@ -18,6 +18,11 @@ int main()
     printf("Hola\aMundo\n"); //\a es para hacer sonido de campana de alerta
     printf("Hola\n Mundo\n"); //\n es salto de linea
     printf("Hola \tMundo\n"); //\t es para tabular
+    printf("Hola \rMundo\n"); //\r sobrescribe en la misma linea lo que viene luego del \r
+    printf("Hola \vMundo\n"); //símbolo género masculino
+    printf("Hola \fMundo\n"); //símbolo género femenino
+    printf("Hola \\ Mundo\n"); //imprime la barra invertida y permite imprimir comillas simples, o dobles con \' y \"
+
 
     printf("*************************************************************************\n");
     printf("Funcion Scanf:\n");
