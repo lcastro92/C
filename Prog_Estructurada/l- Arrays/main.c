@@ -28,6 +28,9 @@ int main()
         printf("%d ", array_tres[i]);
     }
 
-    //podemos recorrer un vector y dejarlo operativo
-
+    //podemos recorrer un vector y dejarlo operativo sin necesidad de cambiar el "hasta" del for de la siguiente manera:
+    printf("\nArray 3 con metodo general de recorrida:\n");
+    for (int i = 0; i < (int) (sizeof(array_tres)/sizeof(array_tres[0])); i++){
+        printf("%d ", array_tres[i]);
+    }
 }
