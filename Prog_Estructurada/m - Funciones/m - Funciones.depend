@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1697144476 source:f:\git\c\prog_estructurada\m - funciones\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
