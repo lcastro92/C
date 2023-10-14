@@ -1,0 +1,7 @@
+#include
+#define
+Type definitions
+Declarations of external variables
+Prototypes for functions
+Main
+Definition of other functions

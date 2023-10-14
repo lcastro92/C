@@ -10,7 +10,7 @@ double promedio (double a, double b);
 void mensaje();
 bool es_primo(int numero);
 void mostrar_vector(int cant,int a[]);
-
+int fact(int n);
 
 int main()
 {
@@ -27,6 +27,10 @@ int main()
 
     printf("\nLos valores del vector son: ");
     mostrar_vector(10,valores);
+
+
+    printf("El factorial de 5 es: %d", fact(5));
+
     return 0;
 }
 
@@ -51,6 +55,7 @@ bool es_primo(int numero){
     return primo;
 }
 
+//en el caso de que querramos recorrer un aray dentro de una funcion, la función no sabe  la longitud del array, por lo que sizeof no sirve, hay que pasar como parámetro la longitud.
 
 void mostrar_vector( int cant,int a[]){
     for (int i = 0; i < cant; i++){
@@ -60,4 +65,13 @@ void mostrar_vector( int cant,int a[]){
 
 }
 
-//en el caso de que querramos recorrer un aray dentro de una funcion, la función no sabe  la longitud del array, por lo que sizeof no sirve, hay que pasar como parámetro la longitud.
+
+//las funciones recursivas no son tan usadas en C
+int fact(int n){
+    if (n<=1)
+        return 1;
+    else
+        return n * fact(n-1);
+}
+
+
